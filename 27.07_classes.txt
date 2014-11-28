@@ -1,0 +1,85 @@
+abstract class User
+{
+	public login;
+	public isONline; // online/offline
+	private password;
+	public email;
+	public status; // active/banned
+
+public function getProfile(login)
+{
+}
+
+public function Read()
+{
+if(this -> status =='banned'){
+	return}
+}
+
+public function comment(post)
+{
+}
+
+public function EditProfile(login)
+{
+	abstract protected function isEditAllowed(login)
+	{
+	if(!this.isEditAllowed){
+		return}
+	}
+}
+
+public login(login,password)
+{
+}
+
+public logout(...)
+{
+}
+
+public function register(data_array)
+{
+}
+
+}
+
+class Guest extends User
+{
+
+protected function isEditAllowed(login)
+{
+if(this.login!=login){
+	return false }
+	else {
+	return true }
+}
+
+Class Admin extends User
+{
+
+protected function isEditAllowed(login)
+{
+return true
+}
+
+public function AddUser(data_array)
+{
+}
+
+public function DeleteUser(login)
+{
+}
+
+public function AddPost(data)
+{
+}
+
+public function EditPost(PostID, data)
+{
+}
+
+public function DeletePost(PostID)
+{
+}
+
+}
