@@ -1,0 +1,34 @@
+﻿<?php
+abstract class Apartment
+{
+	public NumberRent;
+	public place;
+	public price;
+	public square;
+	public data_array;
+	public isRent;
+	
+	public function Search(...) //Все возможные варианты(можно включать и выключать определённые искомые параметры)
+	{
+		if (isRent = true) 
+		{
+			print(Данная квартира уже сдан в аренду)
+		}
+		else
+		{
+		print(RezultSearch)
+		}
+	}
+	
+	public function AddNew(data_array)
+	{
+	}
+	
+	public function ChangeStatus(NumberRent,isRent)
+	{
+	}	
+}
+
+abstract class User	
+{
+	
