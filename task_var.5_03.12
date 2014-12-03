@@ -31,4 +31,9 @@ abstract class Apartment
 
 abstract class User	
 {
+	protected login;
+	public name;
+	public data_user;
+	protected email;
+	private password;
 	
