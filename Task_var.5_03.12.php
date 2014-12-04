@@ -46,7 +46,7 @@ abstract class User
 		}
 	}
 
-	public function NewUser(email,password,login,ID,role)
+	public function NewUser(...)
 	{
 
 	}
@@ -58,7 +58,9 @@ abstract class User
 
 class Guest extends User
 {
-	isLogIn = false;
+	public function isGuest()
+	{
+		if 
 }
 
 class RegUser extends User
@@ -121,6 +123,11 @@ class Admin extends RegUser
 
 	}
 
+	private function DeleteApart(ID_A)
+	{
+		checkUser(password,email)
+	}
+	
 	public function SendEmail(ID_U)
 	{
 		
@@ -138,6 +145,11 @@ class Agent extends RegUser
 	private function NewApart(...)
 	{
 
+	}
+	
+	private function DeleteApart(ID_A)
+	{
+		checkUser(password,email)
 	}
 
 	public function ChangeStatusApart(isRent)
