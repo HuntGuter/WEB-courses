@@ -1,14 +1,11 @@
 <?php
 abstract class Apartment
 {
-	public ID_A
-	public price;
-	public place;
-	public rooms;
-	public time;
+	public ID_A;
+	public data_apart;
 	public isRent;
 
-	public function Seach(price,place,rooms,time)
+	public function Seach(data_apart)
 	{	
 		if (isRent != True)
 		{
@@ -129,7 +126,7 @@ class Admin extends RegUser
 		
 	}
 
-	public function getBann(isBanned)
+	public function getBann(ID_U,isBanned)
 	{
 
 
